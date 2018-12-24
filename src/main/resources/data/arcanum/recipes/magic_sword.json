@@ -1,0 +1,20 @@
+{
+  "type": "arcanum:arcane_crafting",
+  "pattern": [
+    "I",
+    "I",
+    "S"
+  ],
+  "key": {
+    "I": {
+      "item": "arcanum:magic_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "book":"magic",
+  "result": {
+    "item": "arcanum:magic_sword"
+  }
+}

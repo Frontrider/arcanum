@@ -1,0 +1,8 @@
+{
+  "parent": "arcanum:block/bookshelf_base",
+  "textures": {
+    "0": "oak_planks",
+    "1": "arcanum:block/bookshelf_overlay",
+    "particle": "oak_planks"
+  }
+}

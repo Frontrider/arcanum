@@ -1,0 +1,28 @@
+def resourceDir = "generatedResources/"
+def resourceBuildDir = "build/resourceSource/"
+
+mkdir(file(resourceDir))
+mkdir(file(resourceBuildDir))
+
+sourceSets {
+    main {
+        resources {
+            srcDirs "src/main/resources", resourceBuildDir
+        }
+    }
+}
+
+task generateDynamicResources() {
+
+  
+}
+
+task generateResources(type: Copy) {
+   
+
+    into resourceBuildDir
+
+    finalizedBy generateDynamicResources
+}
+
+jar.dependsOn generateResources

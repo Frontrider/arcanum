@@ -1,0 +1,6 @@
+{
+  "parent":"arcanum:item/book_base",
+  "textures": {
+    "layer1": "arcanum:item/book_stripe_life"
+  }
+}

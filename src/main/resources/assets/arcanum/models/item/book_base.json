@@ -1,0 +1,8 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "arcanum:item/book_base",
+    "layer1": "arcanum:item/book_stripe",
+    "layer2": "arcanum:item/book_medal"
+  }
+}
